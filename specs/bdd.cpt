@@ -1,0 +1,52 @@
+Created by testinium on 27.02.2022
+
+# Basla butonu tıklama
+* "6" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+* "5" saniye kadar bekle
+# Kategoriler
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+* "5" saniye kadar bekle
+# Kadın katagorisi
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" li elemente tıkla
+* "5" saniye kadar bekle
+# Uygulama kontrolü
+* "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li uygulama kontrolü
+* "5" saniye kadar bekle
+# Uygulama giris kontrol
+* "com.ozdilek.ozdilekteyim:id/tvMarketName" li uygulama giriş sayfası kontrolü
+* "5" saniye kadar bekle
+# Kadın pantolon sayfası
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][14]" li elemente tıkla
+* "5" saniye kadar bekle
+# Asagıya kaydır
+* "asagıya kaydır"
+* "3" saniye kadar bekle
+* "asagıya kaydır"
+* "3" saniye kadar bekle
+# Rastgele ürün seçimi
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "5" saniye kadar bekle
+# Ürün favorilere ekleme
+* id "com.ozdilek.ozdilekteyim:id/imgFav" li elemente tıkla
+* "5" saniye kadar bekle
+
+# Favoriden sonra giriş işlemleri
+* "com.ozdilek.ozdilekteyim:id/etEposta" İd'li elemente "Nurullah.Demirci" değerini yaz
+* "3" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" İd'li elemente "1234" değerini yaz
+* "3" saniye kadar bekle
+
+# Favoriden 2 kere geri dönüs
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "3" saniye kadar bekle
+# İki kere geri çıktıktan sonra random ürün seçme
+* "//*[@resource-id = 'com.ozdilek.ozdilekteyim:id/recyclerView']/android.widget.FrameLayout" rastgele ürün secildi
+* "3" saniye kadar bekle
+
+# Random ürünü sepete ekleme
+* id "com.ozdilek.ozdilekteyim:id/relLayAddCartBtn" li elemente tıkla
+* "3" saniye kadar bekle
+
